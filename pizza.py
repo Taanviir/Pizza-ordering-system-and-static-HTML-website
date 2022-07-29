@@ -196,6 +196,7 @@ def toppings():
                     i += 1
             break
         elif q == "no":
+            t_count.append(0)
             break
         else:
             print("Error! Please type yes or no only!")
